@@ -1,0 +1,103 @@
+.leftnav{
+    color: rgb(177, 121, 147);
+    margin-left: 3%;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.rightnav a{
+    color: black;
+     padding-top: 35px ;
+     /* background-color: yellow; */
+     margin: 9px;
+     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   */
+}
+button{
+    /* color: black; */
+    background-color:rgb(228, 177, 185);
+    padding: 10px;
+    margin-top: 35px;
+    border-radius:60% ;
+    border-color:rgb(228, 177, 185);
+
+}
+.rightnav{
+     margin-left:300px;
+}
+.rightnav :hover{
+    text-decoration: double;
+    color: rgba(165, 42, 42, 0.664);}
+.sec1{
+    display: flex;
+    background-color: bisque;
+    /* position: fixed;
+    margin-top:0px ;
+    padding-top:0px; */
+}
+.sec2{
+    margin: 8%;
+    font-size: 50px;
+    text-decoration: solid;
+}
+ul {
+    font-size: large;
+    margin-top: 20px ;
+}
+.wlcm{
+    font-size: 20px;
+}
+body{
+    margin: 0 80px 0 80px;
+    background-image: url(https://thumbs.dreamstime.com/b/tile-floor-brick-wall-background-lights-night-hd-image-large-resolution-can-be-used-as-desktop-wallpaper-real-zise-184215885.jpg);
+    color: aliceblue;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 40% 3% 57%;
+    border-width: 33px;
+    /* border-color: green; */
+}
+.img{
+    position: relative;
+    left:150px;
+}
+table,tr,th,td{
+    border: 2px solid ;
+    border-collapse: collapse;
+    margin: 40px;
+    padding: 10px;
+}
+.sec3{
+    background-color: bisque;
+    color: black;
+    margin-top:40px ;
+}
+.sec3 a,i{
+    padding: 20px 20px 20px 20px;
+}
+/* .shiftBg{
+    position: relative;
+    left:15 px;
+} */
+.boxgrid{
+    /*  */
+    /* grid-template-rows: 50% 50%; */
+    /* */
+    border-style: groove;
+    border-color: bisque;
+}
+#project{
+    display: grid; 
+    grid-template-row: 25% 25% 25% 25%;
+}
+ 
+.talk{
+    border-radius: 30px;
+}
+.cv{
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+    text-shadow: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
